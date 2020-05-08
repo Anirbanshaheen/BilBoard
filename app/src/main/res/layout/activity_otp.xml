@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".OtpActivity">
+
+
+    <EditText
+        android:id="@+id/otp_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/verifyOtp_Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="187dp"
+        android:background="@color/buttonColor"
+        android:text="Verify Otp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/otp_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/verifyOtp_Button"
+        app:layout_constraintEnd_toEndOf="@+id/verifyOtp_Button"
+        app:layout_constraintTop_toTopOf="@+id/verifyOtp_Button"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <TextView
+        android:id="@+id/feedBackOtp_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="@+id/verifyOtp_Button"
+        app:layout_constraintTop_toBottomOf="@+id/verifyOtp_Button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

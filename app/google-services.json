@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613949385993",
+    "firebase_url": "https://bilboard-7cdbd.firebaseio.com",
+    "project_id": "bilboard-7cdbd",
+    "storage_bucket": "bilboard-7cdbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613949385993:android:f7a485732a745a1498f7d8",
+        "android_client_info": {
+          "package_name": "com.example.bilboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613949385993-fi96dosjec2hktd047gf1pfq55gjch9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilboard",
+            "certificate_hash": "b93ff474ad7e1d6a3ea6da366cd9104b07676f81"
+          }
+        },
+        {
+          "client_id": "613949385993-1r2ntvnb30ru9afuvgmm7kf0c42khqjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2jEtfKamqg2lizu3I72Tnt1q2kxJwo2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613949385993-1r2ntvnb30ru9afuvgmm7kf0c42khqjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
